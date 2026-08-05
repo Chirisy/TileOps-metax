@@ -1,0 +1,565 @@
+2026-08-05 01:34:28,656 DEBUG matplotlib: (private) matplotlib data path: /tmp/_MEIPhmhz4/matplotlib/mpl-data
+2026-08-05 01:34:28,657 DEBUG matplotlib: matplotlib data path: /tmp/_MEIPhmhz4/matplotlib/mpl-data
+2026-08-05 01:34:28,661 DEBUG matplotlib: CONFIGDIR=/tmp/tmp8jfeli7d
+2026-08-05 01:34:28,664 DEBUG matplotlib: matplotlib version 3.3.4
+2026-08-05 01:34:28,664 DEBUG matplotlib: interactive is False
+2026-08-05 01:34:28,664 DEBUG matplotlib: platform is linux
+2026-08-05 01:34:28,664 DEBUG matplotlib: loaded modules: ['builtins', 'sys', '_frozen_importlib', '_imp', '_warnings', '_thread', '_weakref', '_frozen_importlib_external', '_io', 'marshal', 'posix', 'zipimport', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.ascii', '_signal', '__main__', 'encodings.utf_8', 'encodings.latin_1', 'io', 'abc', '_weakrefset', 'struct', '_struct', 'pyimod01_os_path', 'pyimod02_archive', 'zlib', 'pyimod03_importers', 'pyimod04_ctypes', 'os', 'errno', 'stat', '_stat', 'posixpath', 'genericpath', 'os.path', '_collections_abc', 'ctypes', '_ctypes', 'ctypes._endian', 'pkgutil', 'collections', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_collections', 'functools', '_functools', 'types', 'collections.abc', 'weakref', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'inspect', 'ast', '_ast', 'dis', 'opcode', '_opcode', 'enum', 'linecache', 'tokenize', 're', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', '_locale', 'copyreg', 'token', 'pathlib', 'fnmatch', 'ntpath', 'urllib', 'urllib.parse', 'pkg_resources', 'time', 'zipfile', 'shutil', 'bz2', '_compression', 'threading', 'traceback', '_bz2', 'lzma', '_lzma', 'pwd', 'grp', 'binascii', 'platform', 'subprocess', 'signal', '_posixsubprocess', 'select', 'selectors', 'math', 'plistlib', 'datetime', '_datetime', 'xml', 'xml.parsers', 'xml.parsers.expat', 'pyexpat.errors', 'pyexpat.model', 'pyexpat', 'xml.parsers.expat.model', 'xml.parsers.expat.errors', 'email', 'email.parser', 'email.feedparser', 'email.errors', 'email._policybase', 'email.header', 'email.quoprimime', 'string', '_string', 'email.base64mime', 'base64', 'email.charset', 'email.encoders', 'quopri', 'email.utils', 'random', 'hashlib', '_hashlib', '_blake2', '_sha3', 'bisect', '_bisect', '_random', 'socket', '_socket', 'email._parseaddr', 'calendar', 'locale', 'tempfile', 'textwrap', 'pkg_resources.extern', 'pkg_resources._vendor', 'pkg_resources._vendor.appdirs', 'pkg_resources.extern.appdirs', 'pkg_resources._vendor.packaging', 'pkg_resources._vendor.packaging.__about__', 'pkg_resources.extern.packaging', 'pkg_resources.extern.packaging.version', 'typing', 'typing.io', 'typing.re', 'pkg_resources.extern.packaging._structures', 'pkg_resources.extern.packaging.specifiers', 'pkg_resources.extern.packaging.utils', 'pkg_resources.extern.packaging.tags', 'logging', 'atexit', 'sysconfig', 'pkg_resources._vendor.packaging._manylinux', 'pkg_resources._vendor.packaging._musllinux', 'pkg_resources.extern.packaging.requirements', 'pkg_resources._vendor.pyparsing', 'copy', 'pprint', 'pkg_resources.extern.pyparsing', 'pkg_resources.extern.packaging.markers', 'multiprocessing', 'multiprocessing.context', 'multiprocessing.process', 'multiprocessing.reduction', 'pickle', '_compat_pickle', '_pickle', 'array', '__mp_main__', 'multiprocessing.spawn', 'runpy', 'multiprocessing.util', 'multiprocessing.popen_fork', 'multiprocessing.popen_spawn_posix', 'concurrent', 'concurrent.futures', 'concurrent.futures._base', 'concurrent.futures.process', 'queue', 'multiprocessing.connection', '_multiprocessing', 'concurrent.futures.thread', 'argparse', 'gettext', 'common', 'common.api_common', 'json', 'json.decoder', 'json.scanner', '_json', 'json.encoder', 'paramiko', 'paramiko._version', 'paramiko.transport', 'cryptography', 'cryptography.__about__', 'cryptography.utils', 'cryptography.hazmat', 'cryptography.hazmat.backends', 'cryptography.hazmat.primitives', 'cryptography.hazmat.primitives.ciphers', 'cryptography.hazmat.primitives._cipheralgorithm', 'cryptography.hazmat.primitives.ciphers.base', 'cryptography.exceptions', 'cryptography.hazmat.primitives.ciphers.modes', 'cryptography.hazmat.primitives.ciphers.algorithms', 'paramiko.util', 'paramiko.common', 'paramiko.config', 'getpass', 'termios', 'shlex', 'paramiko.ssh_exception', 'paramiko.auth_handler', 'paramiko.message', 'paramiko.server', 'paramiko.ssh_gss', 'paramiko.channel', 'paramiko.file', 'paramiko.buffered_pipe', 'paramiko.pipe', 'paramiko.compress', 'paramiko.dsskey', 'cryptography.hazmat.primitives.hashes', 'cryptography.hazmat.primitives.serialization', 'cryptography.hazmat.primitives._serialization', 'cryptography.hazmat.primitives.serialization.base', 'cryptography.hazmat.primitives.asymmetric', 'cryptography.hazmat.primitives.asymmetric.dh', 'cryptography.hazmat.primitives.asymmetric.types', 'cryptography.hazmat.primitives.asymmetric.dsa', 'cryptography.hazmat.primitives.asymmetric.utils', 'cryptography.hazmat.bindings', '_cffi_backend', '_openssl.lib', '_openssl', 'cryptography.hazmat.bindings._rust', 'cryptography.hazmat.primitives.asymmetric.ec', 'cryptography.hazmat._oid', 'cryptography.hazmat.primitives.asymmetric.ed448', 'cryptography.hazmat.primitives.asymmetric.ed25519', 'cryptography.hazmat.primitives.asymmetric.rsa', 'cryptography.hazmat.primitives._asymmetric', 'cryptography.hazmat.primitives.asymmetric.x448', 'cryptography.hazmat.primitives.asymmetric.x25519', 'cryptography.hazmat.primitives.serialization.ssh', 'cryptography.hazmat.primitives.asymmetric.padding', 'bcrypt', '__future__', 'hmac', 'bcrypt.__about__', 'bcrypt._bcrypt', 'paramiko.ber', 'paramiko.sftp', 'paramiko.pkey', 'paramiko.ed25519key', 'nacl', 'nacl.signing', 'nacl.bindings', 'nacl.bindings.crypto_aead', 'nacl.exceptions', '_sodium.lib', '_sodium', 'nacl._sodium', 'nacl.bindings.crypto_box', 'nacl.bindings.crypto_core', 'nacl.bindings.crypto_generichash', 'nacl.bindings.crypto_hash', 'nacl.bindings.crypto_kx', 'nacl.bindings.crypto_pwhash', 'nacl.bindings.crypto_scalarmult', 'nacl.bindings.crypto_secretbox', 'nacl.bindings.crypto_secretstream', 'nacl.bindings.crypto_shorthash', 'nacl.bindings.crypto_sign', 'nacl.bindings.randombytes', 'nacl.bindings.sodium_core', 'nacl.bindings.utils', 'nacl.encoding', 'nacl.public', 'nacl.utils', 'paramiko.kex_curve25519', 'cryptography.hazmat.primitives.constant_time', 'paramiko.kex_gex', 'paramiko.kex_group1', 'paramiko.kex_group14', 'paramiko.kex_group16', 'paramiko.kex_ecdh_nist', 'paramiko.kex_gss', 'paramiko.packet', 'paramiko.primes', 'paramiko.rsakey', 'paramiko.ecdsakey', 'paramiko.sftp_client', 'paramiko.sftp_attr', 'paramiko.sftp_file', 'cryptography.hazmat.backends.openssl', 'cryptography.hazmat.backends.openssl.backend', 'cryptography.x509', 'cryptography.x509.certificate_transparency', 'cryptography.x509.base', 'cryptography.x509.extensions', 'ipaddress', 'cryptography.x509.general_name', 'cryptography.x509.name', 'cryptography.x509.oid', 'cryptography.hazmat.backends.openssl.aead', 'cryptography.hazmat.backends.openssl.ciphers', 'cryptography.hazmat.backends.openssl.cmac', 'cryptography.hazmat.backends.openssl.dh', 'cryptography.hazmat.backends.openssl.dsa', 'cryptography.hazmat.backends.openssl.utils', 'cryptography.hazmat.backends.openssl.ec', 'cryptography.hazmat.backends.openssl.ed448', 'cryptography.hazmat.backends.openssl.ed25519', 'cryptography.hazmat.backends.openssl.hashes', 'cryptography.hazmat.backends.openssl.hmac', 'cryptography.hazmat.backends.openssl.poly1305', 'cryptography.hazmat.backends.openssl.rsa', 'cryptography.hazmat.backends.openssl.x448', 'cryptography.hazmat.bindings.openssl', 'cryptography.hazmat.bindings.openssl.binding', 'cryptography.hazmat.bindings.openssl._conditional', 'cryptography.hazmat.primitives.kdf', 'cryptography.hazmat.primitives.kdf.scrypt', 'cryptography.hazmat.primitives.serialization.pkcs12', 'paramiko.client', 'paramiko.agent', 'paramiko.hostkeys', 'paramiko.auth_strategy', 'paramiko.sftp_server', 'paramiko.sftp_si', 'paramiko.sftp_handle', 'paramiko.proxy', 'sshtunnel', 'socketserver', 'utils', 'utils.exceptions', 'utils.logging', '_bootlocale', 'utils.complier', 'utils.rawdata_elements', 'common.pc_piechart', 'matplotlib', 'distutils', 'distutils.version', 'matplotlib.cbook', 'gzip', 'numpy', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._distributor_init', 'numpy.core', 'numpy.core.multiarray', 'numpy.core.overrides', 'numpy.core._multiarray_umath', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'numpy.core.umath', 'numpy.core.numerictypes', 'numbers', 'numpy.core._string_helpers', 'numpy.core._type_aliases', 'numpy.core._dtype', 'numpy.core.numeric', 'numpy.core.shape_base', 'numpy.core._asarray', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core._exceptions', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._add_newdocs', 'numpy.core._multiarray_tests', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.lib', 'numpy.lib.mixins', 'numpy.lib.scimath', 'numpy.lib.type_check', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'numpy.linalg', 'numpy.linalg.linalg', 'numpy.lib.twodim_base', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.function_base', 'numpy.lib.histograms', 'numpy.lib.stride_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.financial', 'decimal', '_decimal', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.fft', 'numpy.fft._pocketfft', 'numpy.fft._pocketfft_internal', 'numpy.fft.helper', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random._pickle', 'numpy.random.mtrand', 'cython_runtime', 'numpy.random.bit_generator', '_cython_0_29_21', 'numpy.random._common', 'secrets', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.testing', 'unittest', 'unittest.result', 'unittest.util', 'unittest.case', 'difflib', 'unittest.suite', 'unittest.loader', 'unittest.main', 'unittest.runner', 'unittest.signals', 'numpy.testing._private', 'numpy.testing._private.utils', 'gc', 'numpy.testing._private.decorators', 'numpy.testing._private.nosetester', 'matplotlib.cbook.deprecation', 'matplotlib.rcsetup', 'matplotlib.animation', 'uuid', 'ctypes.util', 'matplotlib._animation_data', 'matplotlib.fontconfig_pattern', 'pyparsing', 'pyparsing.util', 'pyparsing.exceptions', 'pyparsing.unicode', 'pyparsing.actions', 'pyparsing.core', 'pyparsing.results', 'pyparsing.helpers', 'html', 'html.entities', 'pyparsing.testing', 'pyparsing.common', 'matplotlib.colors', 'matplotlib.docstring', 'matplotlib._color_data', 'cycler', 'matplotlib._version', 'matplotlib.ft2font', 'dateutil', 'dateutil._version', 'kiwisolver']
+2026-08-05 01:34:28,707 DEBUG matplotlib: CACHEDIR=/tmp/tmp8jfeli7d
+2026-08-05 01:34:28,707 INFO matplotlib.font_manager: Generating new fontManager, this may take some time...
+2026-08-05 01:34:28,707 DEBUG matplotlib.font_manager: font search path [PosixPath('/tmp/_MEIPhmhz4/matplotlib/mpl-data/fonts/ttf'), PosixPath('/tmp/_MEIPhmhz4/matplotlib/mpl-data/fonts/afm'), PosixPath('/tmp/_MEIPhmhz4/matplotlib/mpl-data/fonts/pdfcorefonts')]
+2026-08-05 01:34:29,089 DEBUG matplotlib.pyplot: Loaded backend agg version unknown.
+2026-08-05 01:34:30,106 INFO common.api_common: load json file /opt/mcProfiler-ubuntu18.04/config/ce_statistics.pcd error, so try to decrypt: Expecting value: line 1 column 1 (char 0)
+2026-08-05 01:34:30,108 DEBUG urllib3.connectionpool: Starting new HTTP connection (1): 127.0.0.1:50123
+2026-08-05 01:34:30,109 INFO common.api_common: load json file /opt/mcProfiler-ubuntu18.04/config/compute_workload.pcd error, so try to decrypt: Expecting value: line 1 column 1 (char 0)
+2026-08-05 01:34:30,110 INFO common.api_common: load json file /opt/mcProfiler-ubuntu18.04/config/gpu_throughput_statistics.pcd error, so try to decrypt: Expecting value: line 1 column 1 (char 0)
+2026-08-05 01:34:30,110 INFO common.api_common: load json file /opt/mcProfiler-ubuntu18.04/config/instruction_statistics.pcd error, so try to decrypt: Expecting value: line 1 column 1 (char 0)
+2026-08-05 01:34:30,110 INFO common.api_common: load json file /opt/mcProfiler-ubuntu18.04/config/isu_statistics.pcd error, so try to decrypt: Expecting value: line 1 column 1 (char 0)
+2026-08-05 01:34:30,111 INFO common.api_common: load json file /opt/mcProfiler-ubuntu18.04/config/memory_statistics.pcd error, so try to decrypt: Expecting value: line 1 column 1 (char 0)
+2026-08-05 01:34:30,113 INFO common.api_common: load json file /opt/mcProfiler-ubuntu18.04/config/occupancy.pcd error, so try to decrypt: Expecting value: line 1 column 1 (char 0)
+2026-08-05 01:34:30,113 INFO common.api_common: load json file /opt/mcProfiler-ubuntu18.04/config/summary.pcd error, so try to decrypt: Expecting value: line 1 column 1 (char 0)
+2026-08-05 01:34:30,114 INFO common.api_common: load json file /opt/mcProfiler-ubuntu18.04/config/workgroup_memory.pcd error, so try to decrypt: Expecting value: line 1 column 1 (char 0)
+2026-08-05 01:34:30,124 INFO werkzeug:  * Running on http://127.0.0.1:50123/ (Press CTRL+C to quit)
+2026-08-05 01:34:30,611 DEBUG urllib3.connectionpool: Starting new HTTP connection (1): 127.0.0.1:50123
+2026-08-05 01:34:30,613 INFO werkzeug: 127.0.0.1 - - [05/Aug/2026 01:34:30] "GET / HTTP/1.1" 200 -
+2026-08-05 01:34:30,613 DEBUG urllib3.connectionpool: http://127.0.0.1:50123 "GET / HTTP/1.1" 200 29
+2026-08-05 01:34:30,615 DEBUG urllib3.connectionpool: Starting new HTTP connection (1): 127.0.0.1:50123
+2026-08-05 01:34:30,617 INFO werkzeug: 127.0.0.1 - - [05/Aug/2026 01:34:30] "GET /show_metrics HTTP/1.1" 200 -
+2026-08-05 01:34:30,617 DEBUG urllib3.connectionpool: http://127.0.0.1:50123 "GET /show_metrics HTTP/1.1" 200 1976
+2026-08-05 01:34:30,619 DEBUG urllib3.connectionpool: Starting new HTTP connection (1): 127.0.0.1:50123
+2026-08-05 01:34:30,634 INFO phttp.http_server: start a new perf exec thread
+2026-08-05 01:34:30,635 INFO phttp.server_backend: start perf_exec
+2026-08-05 01:34:30,635 INFO phttp.http_server: new exec df608797-7d59-43cd-8d84-d02ee6e270c4:('/bin/bash -lc "cd /data/TileOPs-Metax && PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax:$PYTHONPATH /opt/conda/bin/python -m pytest -s -q benchmarks/ops/bench_moe_expand_to_fused.py"', 'moe_expand_to_fused_all_no_sf_and_with_sf_bottleneck', ['WORKGROUPS', 'WAVES', 'Average Wave life cycles', 'instruction per cycle', 'instruction throughput', 'instruction throughput efficiency', 'AP active cycles', 'AP MTE Duty ratio', 'AP STE Duty ratio', 'AP MMA Duty ratio', 'VLS Duty ratio', 'L2C Duty ratio', 'Compute Instructions Cycles Rate', 'DPC Computing cycles comparison', 'Instructions Comparison', 'ISU stall cycles layout', 'instruction number', 'instructions per AP', 'Global Read Instructions', 'Global Write Instructions', 'Global Atomic Instructions', 'Private Read Instructions', 'Private Write Instructions', 'Constant Read Instructions', 'Constant Read SL1 Instructions', 'Constant Read L2 Instructions', 'Constant SL1 Hit Rate', 'VL1 Read Instructions', 'VL1 Write Instructions', 'VL1 Atomic Instructions', 'VL1 Hit Rate', 'L2C Read Instructions', 'L2C Write Instructions', 'L2C Atomic Instructions', 'L2C Hit Rate', 'Total Atomic Instructions', 'Dnoc Read Req', 'Dnoc Write Req', 'Global Memory Read bytes', 'Global Memory Write bytes', 'Memory Data Flow Chart', 'Dnoc Read Average Latency', 'Dnoc Read Latency Histogram', 'VL1 partition stall cycles layout', 'Achieved waves', 'Dispatched waves', 'Total Instructions', 'Compute Instructions', 'Memory Instructions', 'Total Cycles', 'Memory Access per Second', 'Average AP busy cycles', 'AP busy Duty', 'Compute Instructions busy Duty', 'RoofLine', 'load instructions', 'store instructions', 'atomic instructions', 'total instructions', 'average latency per load instruction', 'average latency per store instruction', 'average latency per atomic instruction', 'average latency of all stages per instruction', 'average cycles per load instruction', 'average cycles per store instruction', 'average cycles per atomic instruction', 'average conflict cycles per instruction', 'average cycles per instruction', 'shared memory access efficiency'])
+2026-08-05 01:34:30,636 INFO werkzeug: 127.0.0.1 - - [05/Aug/2026 01:34:30] "POST /perf_exec HTTP/1.1" 200 -
+2026-08-05 01:34:30,636 INFO common.api_common: ret_code cmdline_str: env
+2026-08-05 01:34:30,638 DEBUG urllib3.connectionpool: http://127.0.0.1:50123 "POST /perf_exec HTTP/1.1" 200 51
+2026-08-05 01:34:30,649 INFO common.api_common: ret_code cmdline_str: ls /sys/devices/virtual/mxcd/
+2026-08-05 01:34:30,657 INFO common.api_common: ret_code cmdline_str: ls /sys/devices/virtual/mxcd/mxcd/layout/nodes/
+2026-08-05 01:34:30,664 INFO phttp.server_backend: get_device_info.layout nodes: ['0', '1', '2', '3', '300', '301', '302', '303', '304', '305', '306', '307', '308', '309', '310', '312', '313', '314', '315', '316', '318', '320', '323', '4', '5', '6', '7', '8', '9']
+2026-08-05 01:34:30,664 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//0/gpu_id
+2026-08-05 01:34:30,670 INFO phttp.server_backend: get_device_info.node 0 gpu_id 0
+2026-08-05 01:34:30,670 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//1/gpu_id
+2026-08-05 01:34:30,676 INFO phttp.server_backend: get_device_info.node 1 gpu_id 0
+2026-08-05 01:34:30,676 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//2/gpu_id
+2026-08-05 01:34:30,682 INFO phttp.server_backend: get_device_info.node 2 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//2/gpu_id: Operation not permitted
+2026-08-05 01:34:30,682 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//3/gpu_id
+2026-08-05 01:34:30,689 INFO phttp.server_backend: get_device_info.node 3 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//3/gpu_id: Operation not permitted
+2026-08-05 01:34:30,689 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//300/gpu_id
+2026-08-05 01:34:30,700 INFO phttp.server_backend: get_device_info.node 300 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//300/gpu_id: Operation not permitted
+2026-08-05 01:34:30,700 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//301/gpu_id
+2026-08-05 01:34:30,709 INFO phttp.server_backend: get_device_info.node 301 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//301/gpu_id: Operation not permitted
+2026-08-05 01:34:30,709 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//302/gpu_id
+2026-08-05 01:34:30,715 INFO phttp.server_backend: get_device_info.node 302 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//302/gpu_id: Operation not permitted
+2026-08-05 01:34:30,715 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//303/gpu_id
+2026-08-05 01:34:30,722 INFO phttp.server_backend: get_device_info.node 303 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//303/gpu_id: Operation not permitted
+2026-08-05 01:34:30,722 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//304/gpu_id
+2026-08-05 01:34:30,728 INFO phttp.server_backend: get_device_info.node 304 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//304/gpu_id: Operation not permitted
+2026-08-05 01:34:30,728 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//305/gpu_id
+2026-08-05 01:34:30,734 INFO phttp.server_backend: get_device_info.node 305 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//305/gpu_id: Operation not permitted
+2026-08-05 01:34:30,734 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//306/gpu_id
+2026-08-05 01:34:30,740 INFO phttp.server_backend: get_device_info.node 306 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//306/gpu_id: Operation not permitted
+2026-08-05 01:34:30,740 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//307/gpu_id
+2026-08-05 01:34:30,746 INFO phttp.server_backend: get_device_info.node 307 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//307/gpu_id: Operation not permitted
+2026-08-05 01:34:30,746 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//308/gpu_id
+2026-08-05 01:34:30,752 INFO phttp.server_backend: get_device_info.node 308 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//308/gpu_id: Operation not permitted
+2026-08-05 01:34:30,752 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//309/gpu_id
+2026-08-05 01:34:30,758 INFO phttp.server_backend: get_device_info.node 309 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//309/gpu_id: Operation not permitted
+2026-08-05 01:34:30,759 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//310/gpu_id
+2026-08-05 01:34:30,768 INFO phttp.server_backend: get_device_info.node 310 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//310/gpu_id: Operation not permitted
+2026-08-05 01:34:30,769 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//312/gpu_id
+2026-08-05 01:34:30,776 INFO phttp.server_backend: get_device_info.node 312 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//312/gpu_id: Operation not permitted
+2026-08-05 01:34:30,776 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//313/gpu_id
+2026-08-05 01:34:30,782 INFO phttp.server_backend: get_device_info.node 313 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//313/gpu_id: Operation not permitted
+2026-08-05 01:34:30,783 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//314/gpu_id
+2026-08-05 01:34:30,789 INFO phttp.server_backend: get_device_info.node 314 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//314/gpu_id: Operation not permitted
+2026-08-05 01:34:30,789 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//315/gpu_id
+2026-08-05 01:34:30,795 INFO phttp.server_backend: get_device_info.node 315 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//315/gpu_id: Operation not permitted
+2026-08-05 01:34:30,795 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//316/gpu_id
+2026-08-05 01:34:30,800 INFO phttp.server_backend: get_device_info.node 316 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//316/gpu_id: Operation not permitted
+2026-08-05 01:34:30,801 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//318/gpu_id
+2026-08-05 01:34:30,806 INFO phttp.server_backend: get_device_info.node 318 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//318/gpu_id: Operation not permitted
+2026-08-05 01:34:30,807 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//320/gpu_id
+2026-08-05 01:34:30,812 INFO phttp.server_backend: get_device_info.node 320 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//320/gpu_id: Operation not permitted
+2026-08-05 01:34:30,812 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//323/gpu_id
+2026-08-05 01:34:30,818 INFO phttp.server_backend: get_device_info.node 323 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//323/gpu_id: Operation not permitted
+2026-08-05 01:34:30,818 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//4/gpu_id
+2026-08-05 01:34:30,824 INFO phttp.server_backend: get_device_info.node 4 gpu_id 61644
+2026-08-05 01:34:30,824 INFO phttp.server_backend: get_device_info.using node id 4
+2026-08-05 01:34:30,824 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//5/gpu_id
+2026-08-05 01:34:30,829 INFO phttp.server_backend: get_device_info.node 5 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//5/gpu_id: Operation not permitted
+2026-08-05 01:34:30,830 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//6/gpu_id
+2026-08-05 01:34:30,835 INFO phttp.server_backend: get_device_info.node 6 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//6/gpu_id: Operation not permitted
+2026-08-05 01:34:30,835 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//7/gpu_id
+2026-08-05 01:34:30,841 INFO phttp.server_backend: get_device_info.node 7 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//7/gpu_id: Operation not permitted
+2026-08-05 01:34:30,841 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//8/gpu_id
+2026-08-05 01:34:30,847 INFO phttp.server_backend: get_device_info.node 8 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//8/gpu_id: Operation not permitted
+2026-08-05 01:34:30,847 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//9/gpu_id
+2026-08-05 01:34:30,852 INFO phttp.server_backend: get_device_info.node 9 gpu_id cat: /sys/devices/virtual/mxcd/mxcd/layout/nodes//9/gpu_id: Operation not permitted
+2026-08-05 01:34:30,853 INFO common.api_common: ret_code cmdline_str: cat /sys/devices/virtual/mxcd/mxcd/layout/nodes//4/properties
+2026-08-05 01:34:30,858 ERROR phttp.server_backend: get_device_info.parse 4 device info vbios_version 1.33.5.0 error.
+2026-08-05 01:34:30,858 INFO phttp.server_backend: get_device_info.device_info: {'4': {'gpu_id': '61644', 'cpu_cores_count': 0, 'mem_banks_count': 1, 'direct_link_count': 4, 'indirect_link_count': 8, 'vendor_id': 39321, 'device_id': 16385, 'drm_render_minor': 130, 'isa_major': 10, 'isa_minor': 0, 'is_vf': 0, 'max_vf_nums': 8, 'domain': 0, 'location_id': 4096, 'num_sdma_engines': 5, 'num_sdma_queues_per_engine': 9, 'num_vpue_cores': 1, 'num_vpud_cores': 8, 'caches_count': 157, 'peu_id_base': 0, 'peu_count': 416, 'max_waves_per_peu': 8, 'wsm_size_in_kb': 64, 'wave_front_size': 64, 'dpc_count': 8, 'dpc0_ap_mask': 8191, 'dpc1_ap_mask': 73727, 'dpc2_ap_mask': 139263, 'dpc3_ap_mask': 204799, 'dpc4_ap_mask': 270335, 'dpc5_ap_mask': 335871, 'dpc6_ap_mask': 401407, 'dpc7_ap_mask': 466943, 'dpc_arrays': 1, 'ap_per_dpc': 13, 'peu_per_ap': 4, 'pri_mem_per_thread': 4, 'max_slots_private_ap': 32, 'num_ce_queues': 16, 'max_engine_clk_gpu': 1600, 'max_engine_clk_cpu': 3600, 'mgpu_id': 0, 'topology_id': 2, 'socket_id': 2, 'hbmecc': 1, 'local_mem_size': 68719476736, 'capability': 4432512, 'maxprocess': 10}}
+2026-08-05 01:34:30,859 INFO phttp.server_backend: start generate batch files
+2026-08-05 01:34:30,860 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,860 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@compute_instructions'}, {'type': 'PRE_VAR', 'value': '@memory_instructions'}]
+2026-08-05 01:34:30,860 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,860 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,860 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@compute_instructions'}]
+2026-08-05 01:34:30,860 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,860 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,861 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@memory_instructions'}]
+2026-08-05 01:34:30,861 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,861 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{CE.CE_PERF_BUSY_CYCLES}}'}]
+2026-08-05 01:34:30,861 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,861 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,861 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rdreq_32B}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rdreq_64B}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rdreq_128B}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq_32B_low}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq_32B_high}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq_64B}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq_128B}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,862 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,863 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,863 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,863 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,864 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,864 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}, {'type': 'VARIABLE', 'value': '{{CE.CE_PERF_BUSY_CYCLES}}'}]
+2026-08-05 01:34:30,864 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,864 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,864 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_CYCLES_VALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_CYCLES_MMA}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,865 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,865 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,869 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_VALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_FMA_F32}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_FMA_F64}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_TRANS_FP16}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_TRANS_FP32}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_MTE_PI_SEG_SEL_F64}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_MTE_PI_SEG_SEL_F64}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_FMA_F32}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_FMA_F64}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_TRANS_FP16}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_TRANS_FP32}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_MMA_INT8}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_MMA_FP16}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_MMA_BF16}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_MMA_TF32}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_MMA_F32}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_MMA_F64}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_MMA_TF64}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rdreq_32B}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rdreq_64B}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rdreq_128B}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq_32B_low}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq_32B_high}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq_64B}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq_128B}}'}, {'type': 'VARIABLE', 'value': '{{VL1.p_perf_thread_req_cnt}}'}, {'type': 'VARIABLE', 'value': '{{VL1.perf_inflt_rd_req}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}, {'type': 'VARIABLE_DICT', 'value': '{{{ISU.AP_PERF_ISU_AP_BUSY}}}'}]
+2026-08-05 01:34:30,873 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,877 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,877 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{CE.CE_PERF_SEND_RM_WORKGROUPS}}'}]
+2026-08-05 01:34:30,877 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,877 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,877 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{CE.CE_PERF_SEND_RM_WAVES}}'}]
+2026-08-05 01:34:30,877 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,877 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,877 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{RM.RM_PERF_WAVES_InFlight_Level_P0}}'}, {'type': 'VARIABLE', 'value': '{{RM.RM_PERF_WAVES_InFlight_Level_P1}}'}, {'type': 'VARIABLE', 'value': '{{RM.RM_PERF_WAVES_InFlight_Level_P2}}'}, {'type': 'VARIABLE', 'value': '{{RM.RM_PERF_WAVES_InFlight_Level_P3}}'}, {'type': 'VARIABLE', 'value': '{{CE.CE_PERF_SEND_RM_WAVES}}'}]
+2026-08-05 01:34:30,878 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,878 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,879 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_CYCLES_VALU_4CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_CYCLES_VALU_16CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_CYCLES_MMA_16CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_CYCLES_MMA_32CYCLES}}'}]
+2026-08-05 01:34:30,880 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,881 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,882 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE_DICT', 'value': '{{{ISU.AP_PERF_INST_CYCLES_MMA}}}'}, {'type': 'VARIABLE_DICT', 'value': '{{{ISU.AP_PERF_INST_CYCLES_MMA}}}'}, {'type': 'VARIABLE_DICT', 'value': '{{{ISU.AP_PERF_INST_CYCLES_VALU}}}'}]
+2026-08-05 01:34:30,883 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,883 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,885 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_VALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_MMA}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_SALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_GVM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_BSM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_LDU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_MISC}}'}]
+2026-08-05 01:34:30,886 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,887 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,888 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_ARB_WSM_STALL}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_ARB_VLS_STALL}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_ARB_DATA_STALL}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_ARB_VALU_STALL}}'}]
+2026-08-05 01:34:30,889 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,890 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@global_insts_rd'}]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@global_insts_wr'}]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_GLOBAL_ATOMIC}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_GLOBAL_ATOMIC_64}}'}]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@private_insts_rd'}]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,891 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@private_insts_wr'}]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@ldu_insts_rd'}]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@sl1_rd'}]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@sl1_l2c_rd'}]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@sl1_hit_rate'}]
+2026-08-05 01:34:30,892 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@vl1_insts_rd'}]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@vl1_insts_wr'}]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{VL1.p_total_atomic_instruction_event}}'}]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@vl1_hit_rate'}]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,893 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@l2c_insts_rd'}]
+2026-08-05 01:34:30,894 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,894 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,894 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@l2c_insts_wr'}]
+2026-08-05 01:34:30,894 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,894 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{L2C.perf_atomic_req}}'}]
+2026-08-05 01:34:30,894 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,894 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,894 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,894 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@l2c_hit_rate'}]
+2026-08-05 01:34:30,894 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,894 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_GVM_ATOMIC}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_ATOMIC}}'}]
+2026-08-05 01:34:30,894 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,895 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,895 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rdreq}}'}]
+2026-08-05 01:34:30,895 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,895 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,895 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq}}'}]
+2026-08-05 01:34:30,895 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,895 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,895 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rdreq_32B}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rdreq_64B}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rdreq_128B}}'}]
+2026-08-05 01:34:30,895 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,896 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,896 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq_32B_low}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq_32B_high}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq_64B}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_wrreq_128B}}'}]
+2026-08-05 01:34:30,896 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,896 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,901 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,906 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@vl1_hit_rate'}, {'type': 'PRE_VAR', 'value': '@l2c_hit_rate'}, {'type': 'PRE_VAR', 'value': '@sl1_hit_rate'}, {'type': 'PRE_VAR', 'value': '@global_insts_rd'}, {'type': 'PRE_VAR', 'value': '@global_insts_wr'}, {'type': 'PRE_VAR', 'value': '@private_insts_rd'}, {'type': 'PRE_VAR', 'value': '@private_insts_wr'}, {'type': 'PRE_VAR', 'value': '@generic_insts_rd'}, {'type': 'PRE_VAR', 'value': '@generic_insts_wr'}, {'type': 'PRE_VAR', 'value': '@ldu_insts_rd'}, {'type': 'PRE_VAR', 'value': '@bsm_insts_rd'}, {'type': 'PRE_VAR', 'value': '@bsm_insts_wr'}, {'type': 'PRE_VAR', 'value': '@vl1_insts_rd'}, {'type': 'PRE_VAR', 'value': '@vl1_insts_wr'}, {'type': 'PRE_VAR', 'value': '@sl1_rd'}, {'type': 'PRE_VAR', 'value': '@sl1_l2c_rd'}, {'type': 'PRE_VAR', 'value': '@l2c_insts_rd'}, {'type': 'PRE_VAR', 'value': '@l2c_insts_wr'}]
+2026-08-05 01:34:30,911 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,912 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rdreq_inflight_level}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rdreq}}'}]
+2026-08-05 01:34:30,912 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,912 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,912 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rd_histogram_0_255}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rd_histogram_256_511}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rd_histogram_512_1K}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rd_histogram_1K_2K}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_dnoc_rd_histogram_2K_INF}}'}]
+2026-08-05 01:34:30,913 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,914 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,914 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{VL1.p_stall_due_oldest_pt0}}'}, {'type': 'VARIABLE', 'value': '{{VL1.p_stall_due_oldest_pt1}}'}, {'type': 'VARIABLE', 'value': '{{VL1.p_stall_due_oldest_pt2}}'}, {'type': 'VARIABLE', 'value': '{{VL1.p_stall_due_oldest_pt3}}'}]
+2026-08-05 01:34:30,915 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,915 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,915 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_RD}}'}]
+2026-08-05 01:34:30,915 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,915 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,916 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_WR}}'}]
+2026-08-05 01:34:30,916 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,916 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,916 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_ATOMIC}}'}]
+2026-08-05 01:34:30,916 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,916 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,916 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_BSM}}'}]
+2026-08-05 01:34:30,916 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,916 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,916 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_READ_INFLIGHT_LEVEL}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_RD}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_RD}}'}]
+2026-08-05 01:34:30,917 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,917 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,917 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_WR_INFLIGHT_LEVEL}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_WR}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_WR}}'}]
+2026-08-05 01:34:30,917 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,917 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,918 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_ATOMIC_INFLIGHT_LEVEL}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_ATOMIC}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_ATOMIC}}'}]
+2026-08-05 01:34:30,918 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,918 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,918 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_INFLIGHT_LEVEL_IN_AP}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_INFLIGHT_LEVEL}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_BSM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_BSM}}'}]
+2026-08-05 01:34:30,919 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,919 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,919 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_RD_CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_RD}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_RD}}'}]
+2026-08-05 01:34:30,919 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,920 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,920 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_WR_CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_WR}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_WR}}'}]
+2026-08-05 01:34:30,920 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,920 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,920 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_ATOMIC_CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_ATOMIC}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_ATOMIC}}'}]
+2026-08-05 01:34:30,921 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,921 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,921 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_CONFLICT_CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_BSM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_BSM}}'}]
+2026-08-05 01:34:30,921 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,921 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,922 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_RD_CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_WR_CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_ATOMIC_CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_BSM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_BSM}}'}]
+2026-08-05 01:34:30,922 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,922 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,923 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_RD_CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_WR_CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_ATOMIC_CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_BSM_CONFLICT_CYCLES}}'}]
+2026-08-05 01:34:30,923 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,924 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,924 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_WAVES}}'}]
+2026-08-05 01:34:30,924 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,924 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,924 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{RM.RM_PERF_DISPATCHED_WAVES_P0}}'}, {'type': 'VARIABLE', 'value': '{{RM.RM_PERF_DISPATCHED_WAVES_P1}}'}, {'type': 'VARIABLE', 'value': '{{RM.RM_PERF_DISPATCHED_WAVES_P2}}'}, {'type': 'VARIABLE', 'value': '{{RM.RM_PERF_DISPATCHED_WAVES_P3}}'}]
+2026-08-05 01:34:30,924 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,925 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,925 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,925 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,925 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,925 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_TRANS_FP16}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_TRANS_FP32}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_MTE_PI_SEG_SEL_F64}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_CYCLES_VALU_4CYCLES}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,926 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,926 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,926 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_SALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,926 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,927 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,927 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_CYCLES_MMA}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,927 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,927 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,927 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{VLS.PERFEVENT_VLS_ACTIVE}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,927 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,927 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,927 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{L2C.perf_req}}'}, {'type': 'VARIABLE', 'value': '{{L2C.1_b1}}'}]
+2026-08-05 01:34:30,928 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,928 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,928 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,928 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@total_instruction_num'}]
+2026-08-05 01:34:30,928 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,929 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE_DICT', 'value': '{{{ISU.AP_PERF_INSTS_VALU}}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,929 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@total_instruction_num'}]
+2026-08-05 01:34:30,929 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,930 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE_DICT', 'value': '{{{ISU.AP_PERF_INSTS_VALU}}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,930 INFO utils.complier: analyse  formula:[{'type': 'PRE_VAR', 'value': '@total_instruction_num'}]
+2026-08-05 01:34:30,931 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,931 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_VALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_MMA}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_SALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_GVM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_BSM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_LDU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_MISC}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,931 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,932 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,932 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE_DICT', 'value': '{{{ISU.AP_PERF_INSTS_VALU}}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_VALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_MMA}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_SALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_GVM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_BSM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_LDU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_MISC}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_ISU_AP_BUSY}}'}]
+2026-08-05 01:34:30,933 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,934 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,934 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_VALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_MMA}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_SALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_MISC}}'}]
+2026-08-05 01:34:30,934 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,934 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_GVM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_BSM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_LDU}}'}]
+2026-08-05 01:34:30,934 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,934 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_GLOBAL_RD}}'}]
+2026-08-05 01:34:30,934 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,934 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_GLOBAL_WR}}'}]
+2026-08-05 01:34:30,934 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_PRIVATE_RD}}'}]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_PRIVATE_WR}}'}]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_GENERIC_RD}}'}]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_GENERIC_WR}}'}]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_LDU}}'}]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_RD}}'}]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,935 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_BSM_WR}}'}]
+2026-08-05 01:34:30,936 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,936 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{VL1.p_total_read_instruction_event}}'}]
+2026-08-05 01:34:30,936 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,936 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{VL1.p_total_write_instruction_event}}'}]
+2026-08-05 01:34:30,936 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,936 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{VL1.p_perf_thread_req_cnt}}'}, {'type': 'VARIABLE', 'value': '{{VL1.p_perf_miss_cnt}}'}, {'type': 'VARIABLE', 'value': '{{VL1.p_perf_thread_req_cnt}}'}]
+2026-08-05 01:34:30,937 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,937 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{L2C.perf_rd_req}}'}]
+2026-08-05 01:34:30,937 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,937 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{L2C.perf_wr_req}}'}]
+2026-08-05 01:34:30,937 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,937 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{L2C.perf_hit}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_sector_hit}}'}, {'type': 'VARIABLE', 'value': '{{L2C.perf_miss}}'}]
+2026-08-05 01:34:30,937 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,938 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{SL1.sl1_kcache_total_hit_event}}'}, {'type': 'VARIABLE', 'value': '{{SL1.sl1_kcache_total_hit_on_miss_event}}'}, {'type': 'VARIABLE', 'value': '{{SL1.sl1_kcache_total_miss_event}}'}]
+2026-08-05 01:34:30,938 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,938 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{SL1.sl1_kcache_rd}}'}]
+2026-08-05 01:34:30,938 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,938 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{SL1.sl1_kcache_l2_rd}}'}]
+2026-08-05 01:34:30,938 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,938 INFO utils.complier: analyse  formula:[{'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_VALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_MMA}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_SALU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_GVM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_BSM}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INSTS_LDU}}'}, {'type': 'VARIABLE', 'value': '{{ISU.AP_PERF_INST_MISC}}'}]
+2026-08-05 01:34:30,939 INFO utils.complier: analyse  formula:[]
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:L2C.perf_dnoc_wrreq
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:L2C.perf_dnoc_rd_histogram_2K_INF
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:L2C.perf_dnoc_wrreq_64B
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_INSTS_GVM
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_INSTS_MMA
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_BSM_ATOMIC_INFLIGHT_LEVEL
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_WAVES
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_ISU_ARB_DATA_STALL
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:VL1.p_total_write_instruction_event
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_INSTS_LDU
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:RM.RM_PERF_DISPATCHED_WAVES_P3
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_BSM_RD_CYCLES
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_INST_MMA_FP16
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:L2C.perf_dnoc_rdreq_64B
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:VL1.p_stall_due_oldest_pt3
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_INST_CYCLES_VALU
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_BSM_READ_INFLIGHT_LEVEL
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:VL1.p_perf_miss_cnt
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_INSTS_VALU
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:L2C.perf_wr_req
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:VL1.p_stall_due_oldest_pt1
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_INST_CYCLES_MMA_16CYCLES
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:L2C.perf_dnoc_rd_histogram_0_255
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_INST_PRIVATE_RD
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:VL1.p_total_read_instruction_event
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_INST_MMA_F32
+2026-08-05 01:34:30,939 INFO common.api_common: f_var:ISU.AP_PERF_INST_MISC
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_BSM_ATOMIC_CYCLES
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_INST_PRIVATE_WR
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:SL1.sl1_kcache_total_miss_event
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_INST_CYCLES_VALU_16CYCLES
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:RM.RM_PERF_WAVES_InFlight_Level_P1
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:VL1.p_stall_due_oldest_pt2
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:L2C.perf_atomic_req
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_INST_MMA_F64
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:RM.RM_PERF_WAVES_InFlight_Level_P3
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_BSM_WR_INFLIGHT_LEVEL
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:L2C.perf_hit
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:RM.RM_PERF_WAVES_InFlight_Level_P0
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:RM.RM_PERF_DISPATCHED_WAVES_P0
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:L2C.perf_rd_req
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:L2C.perf_miss
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_INST_GLOBAL_ATOMIC_64
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_INSTS_BSM
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_BSM_INFLIGHT_LEVEL
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_ISU_ARB_WSM_STALL
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:L2C.perf_req
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:L2C.perf_dnoc_rd_histogram_512_1K
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:RM.RM_PERF_WAVES_InFlight_Level_P2
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_BSM_CONFLICT_CYCLES
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_INST_GENERIC_RD
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_ISU_ARB_VALU_STALL
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_INST_CYCLES_VALU_4CYCLES
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_BSM_INFLIGHT_LEVEL_IN_AP
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_INST_GLOBAL_WR
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:L2C.perf_dnoc_wrreq_128B
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_INST_GLOBAL_RD
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:SL1.sl1_kcache_rd
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:ISU.AP_PERF_INST_TRANS_FP32
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:L2C.perf_dnoc_rdreq
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:L2C.perf_dnoc_wrreq_32B_low
+2026-08-05 01:34:30,940 INFO common.api_common: f_var:L2C.perf_dnoc_rd_histogram_1K_2K
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INST_MMA_BF16
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INST_MMA_TF64
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INST_FMA_F64
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INST_FMA_F32
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:L2C.1_b1
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:VLS.PERFEVENT_VLS_ACTIVE
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INSTS_SALU
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:CE.CE_PERF_SEND_RM_WAVES
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:CE.CE_PERF_BUSY_CYCLES
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:VL1.p_total_atomic_instruction_event
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INST_GLOBAL_ATOMIC
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:SL1.sl1_kcache_total_hit_on_miss_event
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:SL1.sl1_kcache_l2_rd
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INST_CYCLES_MMA
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:L2C.perf_dnoc_rdreq_inflight_level
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INST_MMA_TF32
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:CE.CE_PERF_SEND_RM_WORKGROUPS
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:L2C.perf_dnoc_rdreq_128B
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_BSM_WR_CYCLES
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:RM.RM_PERF_DISPATCHED_WAVES_P1
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:VL1.perf_inflt_rd_req
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INST_BSM_RD
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:L2C.perf_dnoc_rd_histogram_256_511
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_MTE_PI_SEG_SEL_F64
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:L2C.perf_dnoc_wrreq_32B_high
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_ISU_AP_BUSY
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:VL1.p_stall_due_oldest_pt0
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_ISU_ARB_VLS_STALL
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INST_TRANS_FP16
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:L2C.perf_dnoc_rdreq_32B
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INSTS_GVM_ATOMIC
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INST_CYCLES_MMA_32CYCLES
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INST_GENERIC_WR
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:RM.RM_PERF_DISPATCHED_WAVES_P2
+2026-08-05 01:34:30,941 INFO common.api_common: f_var:ISU.AP_PERF_INST_MMA_INT8
+2026-08-05 01:34:30,942 INFO common.api_common: f_var:L2C.perf_sector_hit
+2026-08-05 01:34:30,942 INFO common.api_common: f_var:SL1.sl1_kcache_total_hit_event
+2026-08-05 01:34:30,942 INFO common.api_common: f_var:VL1.p_perf_thread_req_cnt
+2026-08-05 01:34:30,942 INFO common.api_common: f_var:ISU.AP_PERF_INST_BSM_WR
+2026-08-05 01:34:30,942 INFO common.api_common: f_var:ISU.AP_PERF_INST_BSM_ATOMIC
+2026-08-05 01:34:30,943 INFO tools.events_generator.batches_generator: output path is: /opt/mcProfiler-ubuntu18.04/output20260805013430
+2026-08-05 01:34:30,944 INFO tools.events_generator.batches_generator: generate event_batch_1.json successfully!
+2026-08-05 01:34:30,944 INFO tools.events_generator.batches_generator: generate event_batch_2.json successfully!
+2026-08-05 01:34:30,944 INFO tools.events_generator.batches_generator: generate event_batch_3.json successfully!
+2026-08-05 01:34:30,944 INFO tools.events_generator.batches_generator: generate event_batch_4.json successfully!
+2026-08-05 01:34:30,944 INFO tools.events_generator.batches_generator: generate event_batch_5.json successfully!
+2026-08-05 01:34:30,945 INFO tools.events_generator.batches_generator: generate event_batch_6.json successfully!
+2026-08-05 01:34:30,945 INFO tools.events_generator.batches_generator: generate event_batch_7.json successfully!
+2026-08-05 01:34:30,945 INFO tools.events_generator.batches_generator: generate event_batch_8.json successfully!
+2026-08-05 01:34:30,945 INFO tools.events_generator.batches_generator: generate event_batch_9.json successfully!
+2026-08-05 01:34:30,945 INFO phttp.server_backend: generate batch files done
+2026-08-05 01:34:30,945 INFO common.api_common: ret_code cmdline_str: rm -f /root/mcRpcPort.ini
+2026-08-05 01:34:30,951 INFO common.api_common: ret_code cmdline_str: cp /opt/mcProfiler-ubuntu18.04/output20260805013430/event_batch_1.json /opt/mcProfiler-ubuntu18.04/output20260805013430/mcProfiler.json
+2026-08-05 01:34:30,958 INFO common.api_common: ret_code cmdline_str: cd /opt/mcProfiler-ubuntu18.04; export MCTX_TARGET_INIT=true; export MACA_ETC_PATH=/opt/mcProfiler-ubuntu18.04/output20260805013430; export MACA_LAUNCH_BLOCKING=1; export MXLOG_LEVEL=info; /bin/bash -lc "cd /data/TileOPs-Metax && PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax:$PYTHONPATH /opt/conda/bin/python -m pytest -s -q benchmarks/ops/bench_moe_expand_to_fused.py"
+2026-08-05 01:34:30,958 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:30,965 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:31,366 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:31,373 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:31,873 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:31,881 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:32,482 INFO common.api_common: ret_code cmdline_str: rm -f /root/mcRpcPort.ini
+2026-08-05 01:34:32,489 INFO common.api_common: ret_code cmdline_str: cp /opt/mcProfiler-ubuntu18.04/output20260805013430/event_batch_2.json /opt/mcProfiler-ubuntu18.04/output20260805013430/mcProfiler.json
+2026-08-05 01:34:32,496 INFO common.api_common: ret_code cmdline_str: cd /opt/mcProfiler-ubuntu18.04; export MCTX_TARGET_INIT=true; export MACA_ETC_PATH=/opt/mcProfiler-ubuntu18.04/output20260805013430; export MACA_LAUNCH_BLOCKING=1; export MXLOG_LEVEL=info; /bin/bash -lc "cd /data/TileOPs-Metax && PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax:$PYTHONPATH /opt/conda/bin/python -m pytest -s -q benchmarks/ops/bench_moe_expand_to_fused.py"
+2026-08-05 01:34:32,496 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:32,506 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:32,907 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:32,913 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:33,413 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:33,421 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:34,022 INFO common.api_common: ret_code cmdline_str: rm -f /root/mcRpcPort.ini
+2026-08-05 01:34:34,031 INFO common.api_common: ret_code cmdline_str: cp /opt/mcProfiler-ubuntu18.04/output20260805013430/event_batch_3.json /opt/mcProfiler-ubuntu18.04/output20260805013430/mcProfiler.json
+2026-08-05 01:34:34,039 INFO common.api_common: ret_code cmdline_str: cd /opt/mcProfiler-ubuntu18.04; export MCTX_TARGET_INIT=true; export MACA_ETC_PATH=/opt/mcProfiler-ubuntu18.04/output20260805013430; export MACA_LAUNCH_BLOCKING=1; export MXLOG_LEVEL=info; /bin/bash -lc "cd /data/TileOPs-Metax && PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax:$PYTHONPATH /opt/conda/bin/python -m pytest -s -q benchmarks/ops/bench_moe_expand_to_fused.py"
+2026-08-05 01:34:34,039 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:34,049 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:34,449 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:34,456 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:34,956 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:34,964 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:35,565 INFO common.api_common: ret_code cmdline_str: rm -f /root/mcRpcPort.ini
+2026-08-05 01:34:35,573 INFO common.api_common: ret_code cmdline_str: cp /opt/mcProfiler-ubuntu18.04/output20260805013430/event_batch_4.json /opt/mcProfiler-ubuntu18.04/output20260805013430/mcProfiler.json
+2026-08-05 01:34:35,580 INFO common.api_common: ret_code cmdline_str: cd /opt/mcProfiler-ubuntu18.04; export MCTX_TARGET_INIT=true; export MACA_ETC_PATH=/opt/mcProfiler-ubuntu18.04/output20260805013430; export MACA_LAUNCH_BLOCKING=1; export MXLOG_LEVEL=info; /bin/bash -lc "cd /data/TileOPs-Metax && PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax:$PYTHONPATH /opt/conda/bin/python -m pytest -s -q benchmarks/ops/bench_moe_expand_to_fused.py"
+2026-08-05 01:34:35,580 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:35,590 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:35,652 DEBUG urllib3.connectionpool: Starting new HTTP connection (1): 127.0.0.1:50123
+2026-08-05 01:34:35,657 INFO werkzeug: 127.0.0.1 - - [05/Aug/2026 01:34:35] "GET /perf_progress?exec_id=df608797-7d59-43cd-8d84-d02ee6e270c4 HTTP/1.1" 200 -
+2026-08-05 01:34:35,657 DEBUG urllib3.connectionpool: http://127.0.0.1:50123 "GET /perf_progress?exec_id=df608797-7d59-43cd-8d84-d02ee6e270c4 HTTP/1.1" 200 2526
+2026-08-05 01:34:35,991 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:35,997 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:36,498 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:36,505 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:37,106 INFO common.api_common: ret_code cmdline_str: rm -f /root/mcRpcPort.ini
+2026-08-05 01:34:37,114 INFO common.api_common: ret_code cmdline_str: cp /opt/mcProfiler-ubuntu18.04/output20260805013430/event_batch_5.json /opt/mcProfiler-ubuntu18.04/output20260805013430/mcProfiler.json
+2026-08-05 01:34:37,121 INFO common.api_common: ret_code cmdline_str: cd /opt/mcProfiler-ubuntu18.04; export MCTX_TARGET_INIT=true; export MACA_ETC_PATH=/opt/mcProfiler-ubuntu18.04/output20260805013430; export MACA_LAUNCH_BLOCKING=1; export MXLOG_LEVEL=info; /bin/bash -lc "cd /data/TileOPs-Metax && PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax:$PYTHONPATH /opt/conda/bin/python -m pytest -s -q benchmarks/ops/bench_moe_expand_to_fused.py"
+2026-08-05 01:34:37,121 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:37,128 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:37,529 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:37,535 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:38,036 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:38,043 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:38,644 INFO common.api_common: ret_code cmdline_str: rm -f /root/mcRpcPort.ini
+2026-08-05 01:34:38,651 INFO common.api_common: ret_code cmdline_str: cp /opt/mcProfiler-ubuntu18.04/output20260805013430/event_batch_6.json /opt/mcProfiler-ubuntu18.04/output20260805013430/mcProfiler.json
+2026-08-05 01:34:38,658 INFO common.api_common: ret_code cmdline_str: cd /opt/mcProfiler-ubuntu18.04; export MCTX_TARGET_INIT=true; export MACA_ETC_PATH=/opt/mcProfiler-ubuntu18.04/output20260805013430; export MACA_LAUNCH_BLOCKING=1; export MXLOG_LEVEL=info; /bin/bash -lc "cd /data/TileOPs-Metax && PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax:$PYTHONPATH /opt/conda/bin/python -m pytest -s -q benchmarks/ops/bench_moe_expand_to_fused.py"
+2026-08-05 01:34:38,659 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:38,668 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:39,069 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:39,075 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:39,576 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:39,584 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:40,185 INFO common.api_common: ret_code cmdline_str: rm -f /root/mcRpcPort.ini
+2026-08-05 01:34:40,193 INFO common.api_common: ret_code cmdline_str: cp /opt/mcProfiler-ubuntu18.04/output20260805013430/event_batch_7.json /opt/mcProfiler-ubuntu18.04/output20260805013430/mcProfiler.json
+2026-08-05 01:34:40,200 INFO common.api_common: ret_code cmdline_str: cd /opt/mcProfiler-ubuntu18.04; export MCTX_TARGET_INIT=true; export MACA_ETC_PATH=/opt/mcProfiler-ubuntu18.04/output20260805013430; export MACA_LAUNCH_BLOCKING=1; export MXLOG_LEVEL=info; /bin/bash -lc "cd /data/TileOPs-Metax && PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax:$PYTHONPATH /opt/conda/bin/python -m pytest -s -q benchmarks/ops/bench_moe_expand_to_fused.py"
+2026-08-05 01:34:40,200 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:40,210 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:40,611 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:40,617 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:40,663 DEBUG urllib3.connectionpool: Starting new HTTP connection (1): 127.0.0.1:50123
+2026-08-05 01:34:40,668 INFO werkzeug: 127.0.0.1 - - [05/Aug/2026 01:34:40] "GET /perf_progress?exec_id=df608797-7d59-43cd-8d84-d02ee6e270c4 HTTP/1.1" 200 -
+2026-08-05 01:34:40,669 DEBUG urllib3.connectionpool: http://127.0.0.1:50123 "GET /perf_progress?exec_id=df608797-7d59-43cd-8d84-d02ee6e270c4 HTTP/1.1" 200 2526
+2026-08-05 01:34:41,118 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:41,125 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:41,726 INFO common.api_common: ret_code cmdline_str: rm -f /root/mcRpcPort.ini
+2026-08-05 01:34:41,733 INFO common.api_common: ret_code cmdline_str: cp /opt/mcProfiler-ubuntu18.04/output20260805013430/event_batch_8.json /opt/mcProfiler-ubuntu18.04/output20260805013430/mcProfiler.json
+2026-08-05 01:34:41,739 INFO common.api_common: ret_code cmdline_str: cd /opt/mcProfiler-ubuntu18.04; export MCTX_TARGET_INIT=true; export MACA_ETC_PATH=/opt/mcProfiler-ubuntu18.04/output20260805013430; export MACA_LAUNCH_BLOCKING=1; export MXLOG_LEVEL=info; /bin/bash -lc "cd /data/TileOPs-Metax && PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax:$PYTHONPATH /opt/conda/bin/python -m pytest -s -q benchmarks/ops/bench_moe_expand_to_fused.py"
+2026-08-05 01:34:41,740 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:41,749 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:42,150 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:42,156 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:42,657 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:42,664 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:43,265 INFO common.api_common: ret_code cmdline_str: rm -f /root/mcRpcPort.ini
+2026-08-05 01:34:43,272 INFO common.api_common: ret_code cmdline_str: cp /opt/mcProfiler-ubuntu18.04/output20260805013430/event_batch_9.json /opt/mcProfiler-ubuntu18.04/output20260805013430/mcProfiler.json
+2026-08-05 01:34:43,279 INFO common.api_common: ret_code cmdline_str: cd /opt/mcProfiler-ubuntu18.04; export MCTX_TARGET_INIT=true; export MACA_ETC_PATH=/opt/mcProfiler-ubuntu18.04/output20260805013430; export MACA_LAUNCH_BLOCKING=1; export MXLOG_LEVEL=info; /bin/bash -lc "cd /data/TileOPs-Metax && PYTHONPATH=/opt/tilelang-metax-v0.1.10:/data/TileOPs-Metax:$PYTHONPATH /opt/conda/bin/python -m pytest -s -q benchmarks/ops/bench_moe_expand_to_fused.py"
+2026-08-05 01:34:43,279 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:43,286 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:43,687 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:43,693 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:44,194 INFO common.api_common: ret_code cmdline_str: cat /root/mcRpcPort.ini
+2026-08-05 01:34:44,202 WARNING phttp.server_backend: get_srvrpc_port get rpc server ports failed: cannot retrieve rpc server port.
+2026-08-05 01:34:44,804 INFO phttp.server_backend: profiling task df608797-7d59-43cd-8d84-d02ee6e270c4
+2026-08-05 01:34:44,804 ERROR phttp.server_backend: profiler failed:list index out of range
+2026-08-05 01:34:45,676 DEBUG urllib3.connectionpool: Starting new HTTP connection (1): 127.0.0.1:50123
+2026-08-05 01:34:45,681 INFO werkzeug: 127.0.0.1 - - [05/Aug/2026 01:34:45] "GET /perf_progress?exec_id=df608797-7d59-43cd-8d84-d02ee6e270c4 HTTP/1.1" 200 -
+2026-08-05 01:34:45,681 DEBUG urllib3.connectionpool: http://127.0.0.1:50123 "GET /perf_progress?exec_id=df608797-7d59-43cd-8d84-d02ee6e270c4 HTTP/1.1" 200 3459
+2026-08-05 01:34:50,688 DEBUG urllib3.connectionpool: Starting new HTTP connection (1): 127.0.0.1:50123
+2026-08-05 01:34:50,692 INFO werkzeug: 127.0.0.1 - - [05/Aug/2026 01:34:50] "GET /perf_progress?exec_id=df608797-7d59-43cd-8d84-d02ee6e270c4 HTTP/1.1" 200 -
+2026-08-05 01:34:50,692 DEBUG urllib3.connectionpool: http://127.0.0.1:50123 "GET /perf_progress?exec_id=df608797-7d59-43cd-8d84-d02ee6e270c4 HTTP/1.1" 200 3459
+2026-08-05 01:34:55,700 DEBUG urllib3.connectionpool: Starting new HTTP connection (1): 127.0.0.1:50123
+2026-08-05 01:34:55,703 INFO werkzeug: 127.0.0.1 - - [05/Aug/2026 01:34:55] "GET /perf_progress?exec_id=df608797-7d59-43cd-8d84-d02ee6e270c4 HTTP/1.1" 200 -
+2026-08-05 01:34:55,703 DEBUG urllib3.connectionpool: http://127.0.0.1:50123 "GET /perf_progress?exec_id=df608797-7d59-43cd-8d84-d02ee6e270c4 HTTP/1.1" 200 3504
+2026-08-05 01:35:03,713 DEBUG urllib3.connectionpool: Starting new HTTP connection (1): 127.0.0.1:50123
+2026-08-05 01:35:03,715 ERROR phttp.http_server: remove .pkey failed
+2026-08-05 01:35:03,715 INFO werkzeug: 127.0.0.1 - - [05/Aug/2026 01:35:03] "GET /stop HTTP/1.1" 200 -
+2026-08-05 01:35:03,716 DEBUG urllib3.connectionpool: http://127.0.0.1:50123 "GET /stop HTTP/1.1" 200 29
