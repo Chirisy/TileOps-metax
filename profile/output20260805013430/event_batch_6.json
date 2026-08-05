@@ -1,0 +1,54 @@
+{
+  "perfList": {
+    "L2C": [
+      [
+        270,
+        "perf_dnoc_wrreq_32B_high"
+      ],
+      [
+        46,
+        "perf_dnoc_rdreq_32B"
+      ],
+      [
+        20,
+        "perf_sector_hit"
+      ]
+    ],
+    "ISU": [
+      [
+        18,
+        "AP_PERF_INST_GLOBAL_RD"
+      ],
+      [
+        40,
+        "AP_PERF_INST_TRANS_FP32"
+      ],
+      [
+        37,
+        "AP_PERF_INST_MMA_BF16"
+      ],
+      [
+        39,
+        "AP_PERF_INST_MMA_TF64"
+      ],
+      [
+        32,
+        "AP_PERF_INST_FMA_F64"
+      ],
+      [
+        31,
+        "AP_PERF_INST_FMA_F32"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "_expand_to_fused_main_kernel"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "counts": 20
+  }
+}

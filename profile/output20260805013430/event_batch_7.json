@@ -1,0 +1,40 @@
+{
+  "perfList": {
+    "ISU": [
+      [
+        10,
+        "AP_PERF_INSTS_SALU"
+      ],
+      [
+        20,
+        "AP_PERF_INST_GLOBAL_ATOMIC"
+      ],
+      [
+        43,
+        "AP_PERF_INST_CYCLES_MMA"
+      ],
+      [
+        35,
+        "AP_PERF_INST_MMA_TF32"
+      ],
+      [
+        73,
+        "AP_PERF_BSM_WR_CYCLES"
+      ],
+      [
+        28,
+        "AP_PERF_INST_BSM_RD"
+      ]
+    ]
+  },
+  "action": "config,disable,read_dump,enable,kernel_collect",
+  "conditions": {
+    "kernelnames": [
+      "_expand_to_fused_main_kernel"
+    ],
+    "include": true,
+    "is_perkernel": true,
+    "is_multi_device": false,
+    "counts": 20
+  }
+}
